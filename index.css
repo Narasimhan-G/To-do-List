@@ -1,0 +1,123 @@
+.list{
+    font-family:sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 2.5rem;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 40rem;
+    z-index: 1000;
+    margin-bottom: 100px;
+    
+}
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+input[type = "text"]{
+    font-size: 1.3rem;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid hsla(0,0%,80%,0.5);
+    color: hsla(0, 78%, 4%, 0.748);
+    margin-bottom: 10px;
+}
+.add-button{
+    background-color: hsl(120, 100%, 25%);
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+.add-button:hover{
+    background-color: hsl(120, 83%, 38%);
+}
+.delete-button{
+    background-color: hsl(10, 90%, 50%);
+}
+.delete-button:hover{
+    background-color: hsl(25, 87%, 23%);
+    opacity: 0.5;
+}
+.moveUp-button{
+    background-color: hsl(180, 100%, 100%);
+}
+.moveUp-button:hover{
+    background-color: hsl(207, 90%, 54%);
+    opacity: 0.5;
+}
+.moveDown-button{
+    background-color: hsl(180, 100%, 100%);
+}
+.moveDown-button:hover{
+    background-color: hsl(207, 90%, 54%);
+    opacity: 0.5;
+}
+
+ul {
+    display: flex; /* Make the list a flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 0; /* Remove default padding */
+    margin: 0 auto; /* Center the list itself */
+    list-style: none; /* Optional: Remove bullet points */
+}
+
+li {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(239, 233, 233);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between text and buttons */
+    color: black;
+    width: 40%; /* Set a fixed or percentage width */
+    position: relative;
+}
+.text{
+    flex: 1;
+}
+.delete-button, .moveDown-button, .moveUp-button{
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    margin-left: 1px;
+}
+body{
+    padding: 25px;
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+    background-color:rgb(23, 22, 22);
+    color: white;
+}
+.modeswitch{
+    color: black;
+    font-size: 1rem;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.modeswitch:hover{
+    background-color: hsl(0, 0%, 27%);
+}
+
+
